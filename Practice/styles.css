@@ -1,0 +1,32 @@
+.container {
+  border: 2px solid lightgray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  border-radius: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.menu-items-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.menu-items-container li {
+  list-style: none;
+}
+.menu-items-container li a {
+  text-decoration: none;
+  color: white;
+}
+.buttons button {
+  background-color: forestgreen;
+  color: white;
+  border: 1.5px solid white;
+  padding: 3px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+}
